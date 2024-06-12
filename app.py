@@ -1,8 +1,7 @@
 import streamlit as st
 
-
 st.markdown("Created on Thu June 11")
-st.markdown("@author: Prit.Dhanani")
+st.markdown("@Author: Prit.Dhanani")
 
 
 
@@ -16,6 +15,8 @@ import nltk
 import re
 import pickle
 from transformers import pipeline
+
+
 
 
 
