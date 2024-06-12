@@ -4,8 +4,6 @@ st.markdown("Created on Thu June 11")
 st.markdown("@Author: Prit.Dhanani")
 
 
-
-
 import tensorflow as tf
 from tensorflow import keras
 from nltk.stem import WordNetLemmatizer
@@ -14,12 +12,7 @@ import numpy as np
 import nltk
 import re
 import pickle
-from transformers import pipeline
-
-
-
-
-
+# from transformers import pipeline
 
 
 def lemetization(mess):
@@ -41,7 +34,6 @@ def lemetization(mess):
         corpus.append(review)
     
     return corpus
-
 
 
 def tokenizer(text):
